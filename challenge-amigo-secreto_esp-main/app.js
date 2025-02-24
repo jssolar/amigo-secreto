@@ -33,5 +33,5 @@ function sortearAmigo() {
   }
   let sorteoAleatorio = Math.floor(Math.random()*amigoLista.length)
   let seleccionado = amigoLista[sorteoAleatorio].innerHTML
-    resultadoAmigo.innerHTML = 'El resultado es ' + seleccionado 
+    resultadoAmigo.innerHTML = 'El resultado es: ' + seleccionado 
 }
